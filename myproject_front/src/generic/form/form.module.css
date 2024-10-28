@@ -1,0 +1,15 @@
+.section {
+    width: 50%;
+    padding: 2rem;
+
+    border-radius: 1.875rem;
+    box-shadow: 8px 10px 44px 0 #00000026;
+
+    > h1 {
+        text-align: center;
+    }
+}
+
+.form {
+    margin-top: 1rem;
+}

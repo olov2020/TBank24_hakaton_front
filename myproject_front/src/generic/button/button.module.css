@@ -1,0 +1,35 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    padding: 1rem;
+
+    border-radius: .875rem;
+    border: none;
+
+    transition: all .2s;
+
+    cursor: pointer;
+}
+
+.do {
+    background-color: #FFDD2D;
+
+    &:hover {
+        background-color: #f4d533;
+    }
+}
+
+.undo {
+    background-color: rgba(18, 109, 248, .05);
+
+    &:hover {
+        background-color: rgba(23, 110, 244, .1);
+    }
+
+    > p {
+        color: #126DF8;
+    }
+}

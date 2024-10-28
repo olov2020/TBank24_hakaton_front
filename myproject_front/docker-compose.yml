@@ -1,0 +1,9 @@
+---
+services:
+  front:
+    image: d0gied/tbank-front
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"

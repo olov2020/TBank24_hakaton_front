@@ -1,0 +1,13 @@
+.pageContent {
+    width: 100%;
+    min-height: 90vh;
+    padding: 3rem 0;
+}
+
+.textBlur {
+    color: #757575;
+}
+
+.textNormal {
+    color: #333333;
+}

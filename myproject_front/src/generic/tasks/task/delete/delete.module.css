@@ -1,0 +1,8 @@
+.text {
+    font-size: .875rem;
+    color: #EA1212;
+}
+
+.hover {
+    cursor: pointer;
+}

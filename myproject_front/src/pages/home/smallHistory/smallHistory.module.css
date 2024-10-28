@@ -1,0 +1,42 @@
+.header {
+    padding-bottom: 1rem;
+
+    border-bottom: 1px solid #DDDFE0;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.headerInfo {
+    font-size: .9375rem;
+    color: #757575;
+}
+
+.info {
+    display: inline-flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: .5rem;
+    padding: 0 .7rem;
+}
+
+.task {
+    padding: .7rem;
+
+    background-color: #F2F4F7;
+    border-radius: .75rem;
+
+    > p {
+        font-size: 1.05rem;
+    }
+}
+
+.cashback {
+    color: #126DF8;
+}
